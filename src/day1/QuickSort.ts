@@ -3,7 +3,7 @@
  * @param {numberr[]} arr - The array to partition
  * @param {number} lo - The lower array index
  * @param {number} hi - The upper array index
- * @returns {number} - The final index of the pivot
+ * @returns {number} The final index of the pivot
  */
 function partition(arr: number[], lo: number, hi: number): number {
     const pivot = arr[hi];

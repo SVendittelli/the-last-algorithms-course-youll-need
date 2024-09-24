@@ -75,7 +75,7 @@ export default class MinHeap {
      * For a given index, return the index of its parent.
      *
      * @param {number} idx - The index of the item
-     * @returns {number} - The index of the parent
+     * @returns {number} The index of the parent
      */
     private parent(idx: number): number {
         return Math.floor((idx - 1) / 2);
@@ -85,7 +85,7 @@ export default class MinHeap {
      * For a given index, return the index of its left child.
      *
      * @param {number} idx - The index of the item
-     * @returns {number} - The index of the left child
+     * @returns {number} The index of the left child
      */
     private leftChild(idx: number): number {
         return 2 * idx + 1;
@@ -95,7 +95,7 @@ export default class MinHeap {
      * For a given index, return the index of its right child.
      *
      * @param {number} idx - The index of the item
-     * @returns {number} - The index of the right child
+     * @returns {number} The index of the right child
      */
     private rightChild(idx: number): number {
         return 2 * idx + 2;
